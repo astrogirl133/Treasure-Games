@@ -1,0 +1,13 @@
+/* Stylesheet */
+
+body {background-image:url(Images/digital-background.jpg); color:#FFD700; font-family: 'Roboto Slab', serif;}
+
+ul {list-style-type:none;}
+
+/* Classes */
+
+.clear { clear:both;}
+
+.logo {float:left;}
+
+.nav li {display: inline; list-style-type:none; margin: 10 px;}
