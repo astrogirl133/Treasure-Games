@@ -1,0 +1,83 @@
+/* COLORS Gold:FFD700 */
+
+a:visited {color:#FFD700;}
+
+a:hover {color:red;}
+
+body {background-image:url(Images/digital-background.jpg); color:#FFD700; font-family: 'Roboto Slab', serif;}
+
+header {background:black;}
+
+main {max-width:955px;width:90%;margin:0 auto;}
+
+/* CLASSES */
+
+.banner {float:left;margin:10px;}
+
+.banner1 {float:left;margin:10px;}
+
+.clear { clear:both;}
+
+.consolenav {background-color:black;font-family: 'Roboto Slab', serif;border-bottom:solid;border-color:#FFD700;text-align:center;height:50px;text-decoration:none;}
+
+.consolenav li {list-style-type:none;display:inline;border-right:solid;border-color:#FFD700;padding-left:15px;padding-right:15px;}
+
+.founders {float:right;margin:10px;}
+
+.games {float:left; background-color:black;display:inline;}
+
+.games li {list-style-type:none; display:inline;padding:60px;}
+
+.gametitles li {padding:90px;}
+
+.genrenav {background-color:black; font-family: 'Roboto Slab', serif; border-right:solid; border-color:#FFD700;float:left;}
+
+.genrenav li {list-style-type:none;}
+
+.headings {color: #FFD700;font-family: 'Roboto Slab', serif;font-weight:bold;float:left;width:20%;font-size:50px;}
+
+.headings2 {font-weight:bold;text-decoration:underline;text-align:center;}
+
+.hr {color:#FFD700;}
+
+.logo {float:left;width:20%;margin:0 auto;}
+
+.nav {background-color:black;font-family: 'Roboto Slab', serif;text-decoration:none;padding-top:10px;padding-bottom:10px;border-top:solid;border-bottom:solid;border-color:#FFD700;}
+
+.nav li {list-style-type:none; display:inline; width:100px;margin:0;text-align:center;border-right:solid; border-color:black;}
+
+.pictures {border-radius: 25px;}
+
+.pictures li {list-style-type:none; display:inline;border-radius: 25px;}
+
+.prices li {display:inline;padding:100px;}
+
+.Wrapper {margin:0 auto;}
+
+/* IDS */
+
+#faq {text-align:center;}
+
+#genres {color:#FFD700;font-weight:bold;text-decoration:underline;}
+
+#main {max-width:1200px;width:90%;margin:0 auto;}
+
+/* MEDIA QUERIES */
+@media only print {
+	header, .nav, footer, .pictures,.consolenav,.genrenav {display:none;}
+}
+
+@media only screen and (max-width:600px) {
+	.headings {float:none;}
+	.logo {float:none;}
+	.banner {display:none;}
+}
+
+@media only screen and (min-width:1366px) {
+	.consolenav {padding-left:20px;padding-right:20px;}
+	.nav li {padding-left:100px;padding-right:100px;}
+}
+ 
+@media only screen and (min-width:1900px) {
+	.nav li {padding-left:100px;padding-right:100px;}
+}
